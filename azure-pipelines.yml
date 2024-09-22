@@ -1,0 +1,28 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+
+variables:
+- group: secrets
+
+steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '20.x'
+    displayName: 'Install Node.js'
+
+  - script: |
+      npm ci
+      npm run build
+    displayName: 'dependencies install and distribution build'
+
+  - task: AzureStaticWebApp@0
+    inputs:
+      app_location : '/'
+      output_location: '' # Leave this empty
+      skip_app_build: true
+      skip_api_build: true
+      azure_static_web_apps_api_token: $(deployment_token)
