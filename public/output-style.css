@@ -2725,10 +2725,6 @@ video {
 }
 
 @media (min-width: 414px) {
-  .sm\:justify-center {
-    justify-content: center;
-  }
-
   .sm\:underline {
     text-decoration-line: underline;
   }
@@ -2763,10 +2759,6 @@ video {
     display: block;
   }
 
-  .lg\:flex {
-    display: flex;
-  }
-
   .lg\:grid {
     display: grid;
   }
@@ -2781,10 +2773,6 @@ video {
 
   .lg\:items-center {
     align-items: center;
-  }
-
-  .lg\:justify-end {
-    justify-content: flex-end;
   }
 }
 
