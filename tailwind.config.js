@@ -1,17 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.{html,js}"],
+  content: ["./**/*.{html,js}"], // Adjust this if needed based on your project structure
   theme: {
     extend: {},
     screens: {
-      'sm': '414px',
-      'md': '768px',
-      'lg': '1024px',
-      'xl': '1050px',
-      '2xl': '2560px',
-      '3xl': '3840px'
-    }
+      'tablet': '640px',
+      'laptop': '1024px',
+      'desktop': '1280px',
+    },
   },
-  plugins: ['@tailwindcss/filters'],
+  plugins: [
+    ('@tailwindcss/filters'), // Import the filters plugin correctly
+  ],
 }
-

@@ -8,86 +8,118 @@
     <title>aimee</title>
 </head>
 
-<body class="bg-[#FFFFFF] text-[#562E07]">
+<body class="bg-[#FFFFFF] text-[#562E07] h-screen">
     <!-- Global Container -->
-    <div class="relative max-h-min">
+    <div class="h-[7%]">
         <!-- Top nav -->
-        <nav class="grid grid-cols-5 shadow-xl p-2 fixed top-0 w-full backdrop-blur-lg z-50" id="navbar">
+        <nav class="grid grid-cols-5 shadow-xl fixed top-0 w-full backdrop-blur-lg z-50" id="navbar">
             <!-- Logo shop -->
-            <div class="grid col-start-3 justify-center">
+            <div class="grid col-start-3 justify-center items-center">
                 <a href="index.html">
                     <img src="img/aimee_logo.png" alt="logo-shop" class="w-24">
                 </a>
             </div>
             <!-- Book Now Button -->
-            <div class="hidden lg:grid lg:items-center lg:col-start-5 justify-center">
+            <div class="hidden tablet:grid desktop:grid items-center col-start-5 justify-center">
                 <button
-                    class="border border-[#562E07] p-2 rounded-2xl bg-[#FFFFFF] hover:scale-105 hover:bg-[#D7C787] active:ring-2 active:ring-[#E6391B] hidden lg:block">
+                    class="border border-[#562E07] p-2 rounded-2xl bg-[#FFFFFF] hover:scale-105 hover:bg-[#D7C787] active:ring-2 active:ring-[#E6391B]">
                     <a href="https://booking.gocheckin.net/v2/17874" class="font-medium text-[#562E07]">BOOK NOW</a>
                 </button>
             </div>
-
         </nav>
-        <!-- Main content section -->
-        <main>
-            <!-- Intro section -->
-            <section class="lg:h-screen" id="intro">
-                <!-- Content container -->
-                <div
-                    class="relative flex p-5 space-y-5 mt-[40%] mr-[5%] md:ml-[2%] md:mt-[15%]">
-                        <div class="absolute inset-0 bg-[#d9c2ad9f] opacity-40 rounded-md">
-                            <p>write here</p>
-                        </div>
-                    </div>
-                    <!--  -->
-                </div>
-            </section>
-
-            <!-- Footer section -->
-            <section class="hidden lg:block shadow-inner"
-                id="about-section">
-                <!-- Content container -->
-                <div class="flex justify-center space-x-20 p-10">
-                    <!-- d:mx-[10%] xl:mb-[20%] lg:mx-[15%] xl:mx-[20%] 2xl:mx-[25%] 3xl:mx-[30%]" -->
-                    <!-- contact container -->
-                    <div>
-                        <h3>Contact Us:</h3>
-                        <ul>
-                            <li>Phone: (206)789-1555</li>
-                        </ul>
-                    </div>
-                    <!-- Follow container -->
-                    <div class="flex flex-col text-center">
-                        <h3 class="w-28"> Follow Us: </h3>
-                        <ul class="flex justify-center space-x-5">
-                            <li>
-                                <a href="https://www.instagram.com/aimee.nailstudio/" target="_blank">
-                                    <img src="img/instagram.png" alt="instagram" class="w-10 ficon">
-                                </a>
-                            </li>
-                            <li>
-                                <a href=" https://www.facebook.com/people/Aimee-Nail-Studio/61565410352437/"
-                                    target="_blank">
-                                    <img src="img/facebook.png" alt="facebook" class="w-10 ficon">
-                                </a>
-                            </li>
-
-                        </ul>
-                    </div>
-                    <!-- Location container -->
-                    <div>
-                        <h3>Location:</h3>
-                        <p>5615 24th NW, Seattle, WA, United States, Washington</p>
-                    </div>
-                    <!-- Email join team container -->
-                    <div>
-                        <h3>To join the aimee team <a href="mailto:aimeenailsspa@gmail.com" target="_top"
-                                class="font-bold">click here</a></h3>
-                    </div>
-                </div>
-            </section>
-        </main>
     </div>
+
+    <!-- Main content section -->
+    <main class="h-[80%] mt-[15%]">
+        <!-- Intro section -->
+        <section class="" id="intro">
+            <!-- Content container -->
+            <div class="flex flex-col items-center space-y-5 space-x-5">
+                <!-- Comment or description of the salon container -->
+                <div class="w-[80%] p-5">
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, laudantium ipsum.
+                        Minima
+                        dignissimos quidem, dicta eius animi, veniam minus porro incidunt inventore maiores doloribus
+                        unde iusto, eos vel ipsam molestias.
+                        Nobis odio mollitia consequuntur illo quasi minus ad placeat, repellat cupiditate ullam dolorum
+                        commodi delectus voluptas at, vero illum! Vel distinctio debitis quo ex? Inventore porro dolore
+                        obcaecati voluptatem. Voluptatibus!
+                        Earum, id, eaque iure quasi eum, voluptatum quia deleniti delectus tenetur excepturi voluptate.
+                        Aspernatur, tempora at laborum tempore quibusdam nisi vel numquam suscipit cumque accusantium
+                        dicta, quisquam corrupti ut totam.
+                        Sunt tempore beatae blanditiis animi quasi commodi praesentium voluptate nobis similique! Ullam
+                        magnam necessitatibus inventore architecto voluptatibus alias laudantium facilis, suscipit minus
+                        aliquid corrupti beatae maxime reiciendis mollitia tempore impedit?
+                        Veniam, labore sint quos dicta quibusdam temporibus eius harum in omnis repellat mollitia dolore
+                        itaque cum maxime, porro provident iusto earum vero aut magni, dolorem laudantium! Eos, error
+                        earum. Labore!</p>
+                </div>
+                <!-- Phones / Booking buttons when windows is at mobile size container -->
+                <div class="flex flex-col items-center space-y-10 p-5">
+                    <div class="">
+                        <button
+                            class="border border-[#562E07] px-5 py-3 rounded-2xl bg-[#FFFFFF] hover:scale-105 hover:bg-[#D7C787] active:ring-2 active:ring-[#E6391B]">
+                            <a href="https://booking.gocheckin.net/v2/17874" class="font-medium text-[#562E07]">Book Now
+                            </a>
+                        </button>
+                    </div>
+                    <div class="">
+                        <button onclick="window.location.href='tel:+2067891555'"
+                            class="inline-flex items-center justify-center border border-[#562E07] px-7 py-3 rounded-2xl bg-[#FFFFFF] text-[#562E07] font-medium transition-transform transform hover:scale-105 hover:bg-[#D7C787] active:ring-2 active:ring-[#E6391B]">
+                            Call Us
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer section -->
+        <section class="shadow-inner" id="about-section">
+            <!-- Content container -->
+            <div class="flex flex-col space-y-10 p-5 mt-[2%]">
+                <!-- d:mx-[10%] xl:mb-[20%] lg:mx-[15%] xl:mx-[20%] 2xl:mx-[25%] 3xl:mx-[30%]" -->
+                <!-- contact container -->
+                <div>
+                    <h3>Contact Us:</h3>
+                    <ul>
+                        <li>Phone: <a href="tel:+206789-1555">(206)789-1555</a></li>
+                    </ul>
+                </div>
+                <!-- Follow container -->
+                <div class="flex flex-col">
+                    <h3 class="w-28"> Follow Us: </h3>
+                    <ul class="flex justify-start">
+                        <li>
+                            <a href="https://www.instagram.com/aimee.nailstudio/" target="_blank">
+                                <img src="img/instagram.png" alt="instagram" class="w-10 ficon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href=" https://www.facebook.com/people/Aimee-Nail-Studio/61565410352437/"
+                                target="_blank">
+                                <img src="img/facebook.png" alt="facebook" class="w-10 ficon">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- Location container -->
+                <div>
+                    <h3>Location:</h3>
+                    <a href="https://www.google.com/maps/search/?api=1&query=5615%2024th%20NW%2C%20Seattle%2C%20WA%2C%20United%20States%2C%20Washington"
+                        target="_blank" rel="noopener noreferrer">
+                        5615 24th NW, Seattle, WA, United States, Washington
+                    </a>
+                </div>
+                <!-- Email join team container -->
+                <div>
+                    <h3>To join the aimee team <a href="mailto:aimeenailsspa@gmail.com" target="_top"
+                            class="font-bold">click here</a></h3>
+                </div>
+            </div>
+        </section>
+    </main>
     <script src="/script.js"></script>
 </body>
 
@@ -103,8 +135,8 @@
                                 nails
                                 into works of art.</h1>
                         </div> -->
-                    <!-- Book Now button container-->
-                    <!-- <div class="space-x-5">
+<!-- Book Now button container-->
+<!-- <div class="space-x-5">
                             <button
                                 class="border border-[#562E07] px-10 py-2 rounded-2xl bg-[#FFFFFF] hover:scale-105 hover:bg-[#D7C787] active:ring-2 active:ring-[#E6391B]">
                                 <span class="font-medium text-[#562E07]">BOOK NOW</span>
