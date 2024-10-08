@@ -649,10 +649,6 @@ video {
   isolation: auto;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
 .z-50 {
   z-index: 50;
 }
@@ -707,10 +703,6 @@ video {
 
 .clear-none {
   clear: none;
-}
-
-.ml-6 {
-  margin-left: 1.5rem;
 }
 
 .mt-2 {
@@ -834,26 +826,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[65\%\] {
-  height: 65%;
-}
-
-.h-\[75\%\] {
-  height: 75%;
-}
-
-.h-\[70\%\] {
-  height: 70%;
-}
-
-.h-\[20\%\] {
-  height: 20%;
-}
-
-.h-\[60\%\] {
-  height: 60%;
 }
 
 .w-10 {
@@ -1877,11 +1849,6 @@ video {
   border-color: rgb(86 46 7 / var(--tw-border-opacity));
 }
 
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
 .bg-\[\#FFFFFF\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -2002,17 +1969,8 @@ video {
      object-fit: scale-down;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
 .p-5 {
   padding: 1.25rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .px-5 {
@@ -2023,11 +1981,6 @@ video {
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .py-3 {
@@ -2089,11 +2042,6 @@ video {
 
 .align-super {
   vertical-align: super;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-bold {
@@ -2170,11 +2118,6 @@ video {
 .stacked-fractions {
   --tw-numeric-fraction: stacked-fractions;
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
-}
-
-.text-\[\#071526\] {
-  --tw-text-opacity: 1;
-  color: rgb(7 21 38 / var(--tw-text-opacity));
 }
 
 .text-\[\#336699\]\/\[\.35\] {
@@ -2670,31 +2613,11 @@ video {
   .tablet\:h-\[65\%\] {
     height: 65%;
   }
-
-  .tablet\:flex-row {
-    flex-direction: row;
-  }
-
-  .tablet\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0px * var(--tw-space-y-reverse));
-  }
-
-  .tablet\:space-x-5 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(1.25rem * var(--tw-space-x-reverse));
-    margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
-  }
 }
 
 @media (min-width: 1280px) {
   .desktop\:grid {
     display: grid;
-  }
-
-  .desktop\:h-\[80\%\] {
-    height: 80%;
   }
 
   .desktop\:h-\[70\%\] {
