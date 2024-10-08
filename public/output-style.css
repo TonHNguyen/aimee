@@ -836,6 +836,26 @@ video {
   height: 100vh;
 }
 
+.h-\[65\%\] {
+  height: 65%;
+}
+
+.h-\[75\%\] {
+  height: 75%;
+}
+
+.h-\[70\%\] {
+  height: 70%;
+}
+
+.h-\[20\%\] {
+  height: 20%;
+}
+
+.h-\[60\%\] {
+  height: 60%;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -2642,10 +2662,66 @@ video {
   .tablet\:grid {
     display: grid;
   }
+
+  .tablet\:hidden {
+    display: none;
+  }
+
+  .tablet\:h-\[65\%\] {
+    height: 65%;
+  }
+
+  .tablet\:flex-row {
+    flex-direction: row;
+  }
+
+  .tablet\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
+  .tablet\:space-x-5 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+  }
 }
 
 @media (min-width: 1280px) {
   .desktop\:grid {
     display: grid;
+  }
+
+  .desktop\:h-\[80\%\] {
+    height: 80%;
+  }
+
+  .desktop\:h-\[70\%\] {
+    height: 70%;
+  }
+
+  .desktop\:flex-row {
+    flex-direction: row;
+  }
+
+  .desktop\:items-center {
+    align-items: center;
+  }
+
+  .desktop\:justify-center {
+    justify-content: center;
+  }
+
+  .desktop\:space-x-5 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .desktop\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 }
